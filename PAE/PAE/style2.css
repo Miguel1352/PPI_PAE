@@ -1,0 +1,115 @@
+
+body {
+    font-family: Helvetica Neue, sans-serif;
+    height: 100vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    margin-bottom: 50px;
+}
+
+label, p {
+    font-size: 17px;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 17px 11px;
+    border: 1px solid #00ADEF;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #FAFAFC;
+    outline: none;
+    color: #00ADEF;
+    font-size: 17px;
+}
+
+.btn-1 {
+    background-color: #00ADEF;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #00ADEF;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+@media(max-width:991px) {
+
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .remember {
+        flex-direction: column;
+    }
+}
+
+.imagen-esquina-izquierda {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imagen-esquina-derecha {
+    position: absolute;
+    top: 17px;
+    right: -40px;
+}
+
+
+.imagen{
+
+    width: 200px;
+    height: 150px;
+
+}
+
+div {
+    text-align: center;
+}
+
+span {
+    font-size: 40px;
+    color: white;}
+
+.buttons {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #2a8bb8;
+    color: black    ;
+}

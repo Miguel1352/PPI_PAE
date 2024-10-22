@@ -1,0 +1,62 @@
+.btn-1, .btn-2 {
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #FFB408;
+    font-size: 20px;
+    padding: 15px 15px;
+    color: #FBFCFF;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo del cuerpo para ocupar el 100% del viewport */
+    margin: 0;
+}
+
+.button-container {
+    margin-top: auto; /* Empuja el contenedor al final de la página */
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    width: 100%;
+}
+
+.btn-1,
+.btn-2 {
+    margin: 0 5px; /* Agrega un pequeño margen entre los botones */
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
